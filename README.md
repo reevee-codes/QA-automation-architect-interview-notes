@@ -56,3 +56,52 @@ Practical Knowledge
 
     Case Study:
         Imagine you are tasked with building a QA framework from scratch for a new e-commerce application. Explain the steps you would take to design and implement this framework. Include considerations for technology stack, scalability, maintainability, and team involvement.
+
+Accessibility Testing Questions
+1. Accessibility Fundamentals
+
+    What are the key principles of accessibility as defined by the WCAG (Web Content Accessibility Guidelines)? How would you apply these principles to test a frontend application?
+
+2. Tools and Frameworks
+
+    Which tools or libraries have you used for accessibility testing in a Java-based QA framework? Can you explain how they integrate into automated testing workflows?
+    (Examples: Axe, Pa11y, Lighthouse, or any Java wrappers for accessibility testing.)
+
+3. Automated vs Manual Accessibility Testing
+
+    Accessibility testing often requires a combination of automated tools and manual inspection. How would you strike the right balance between the two in your testing framework?
+    What aspects of accessibility testing cannot be automated, and how would you handle them?
+
+4. Testing for Assistive Technologies
+
+    How would you test an application’s compatibility with assistive technologies such as screen readers, voice recognition software, or keyboard navigation?
+    What specific methods or tools would you recommend for testing screen reader compatibility on both frontend and backend (e.g., ARIA roles validation)?
+
+5. Handling Dynamic Content
+
+    Modern applications often use dynamic content (e.g., single-page applications). How would you ensure accessibility in such scenarios, especially for updating elements or live regions?
+    Can you explain how you would test an application for compliance with ARIA (Accessible Rich Internet Applications) standards?
+
+6. Backend Accessibility Considerations
+
+    Backend systems often generate content that is consumed by frontend systems. How would you ensure that data sent from the backend supports accessibility, such as proper error messaging or alt text for images?
+    How would you design tests to validate that APIs support accessibility features, like passing labels or descriptions for screen readers?
+
+7. Accessibility in CI/CD
+
+    How would you incorporate accessibility checks into a CI/CD pipeline? Which tools or practices would you use to ensure that accessibility issues are caught early in the development cycle?
+
+8. Accessibility Metrics and Reporting
+
+    What metrics would you use to measure the accessibility of an application?
+    How would you implement a reporting mechanism in your QA framework to track and prioritize accessibility issues over time?
+
+9. Real-World Scenarios
+
+    Imagine that a critical accessibility issue is discovered late in the development process. How would you handle the situation, both technically and in terms of cross-team collaboration?
+    Can you describe a past experience where you implemented or improved accessibility testing in a QA framework? What challenges did you face, and how did you overcome them?
+
+10. Accessibility Testing for Mobile
+
+    Accessibility testing on mobile devices can differ significantly from desktop testing. How would you test an application’s accessibility on mobile platforms?
+    Are there specific tools or frameworks you would use to ensure compliance with mobile accessibility standards, such as testing for touch target sizes, gestures, or voice commands?
